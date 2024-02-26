@@ -181,3 +181,9 @@ org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SELLER" already exists; SQL stat
 CREATE TABLE SELLER (
     seller_id int primary key,
     name varchar(255) not null [42101-214]
+2024-02-26 13:44:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SELLER" already exists; SQL statement:
+
+CREATE TABLE SELLER (
+    seller_id int primary key,
+    name varchar(255) not null [42101-214]
